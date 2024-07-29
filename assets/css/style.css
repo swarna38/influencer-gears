@@ -152,3 +152,29 @@ strong,
     font-size: 2rem;
     margin-bottom: 20px;
 }
+/* ====footer start==== */
+.footer{
+    background: rgb(4, 4, 31);
+    text-align: center;
+}
+.footer-content{
+    padding: 50px 0;
+}
+.footer h3,
+.footer p,
+.footer i{
+    color: white !important;
+}
+.footer p{
+    margin: 14px 0;
+    font-size: 14px;
+}
+.footer i{
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    color: white;
+    background: gray;
+    margin-right: 5px;
+    cursor: pointer;
+}
