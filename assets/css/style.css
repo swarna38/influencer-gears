@@ -122,7 +122,8 @@ h3{
     margin-top: 14px;
 }
 strong,
-.card p{
+.card p,
+.features-content p{
     color: rgb(120, 120, 133);
     font-weight: 700;
     font-size: 14px;
@@ -138,4 +139,16 @@ strong,
 }
 .see-arrow{
     margin-left: 8px;
+}
+/* ====features start===== */
+.features{
+    margin: 100px 0;
+}
+.features-content{
+    margin-left: 8%;
+}
+.features-content h3{
+    color: rgb(10, 8, 38);
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
