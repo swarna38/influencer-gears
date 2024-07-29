@@ -47,6 +47,9 @@ h3{
 .menu-items li a{
     text-decoration: none;
 }
+.ham-burger{
+    display: none;
+}
 /* ====banner start===== */
 .banner{
     height: 500px;
@@ -83,7 +86,9 @@ h3{
 }
 /* ======sponser start====== */
 .sponser{
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 30px;
     margin: 90px 0;
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;

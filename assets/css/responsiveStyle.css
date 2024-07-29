@@ -1,0 +1,99 @@
+@media screen and (max-width: 330px){
+    .banner-content h3,
+    .features-content h3,
+    .collection-header{
+        font-size: 1.5rem !important;
+        line-height: 30px;
+    }
+    .sponser{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border-top:none;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 330px) and (max-width: 768px){
+    .ham-burger{
+        display: block;
+    }
+    .menubar{
+        display: none;
+    }
+    .banner,
+    .features{
+        flex-direction: column-reverse;
+        height: auto;   
+    }
+    .nav-bar{
+        padding-bottom: 0;
+    }
+    .menu-items{
+        gap:1.2rem;
+    }   
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-img{
+        margin-top: 50px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-content h3{
+        font-size: 2.5rem;
+    }
+    .btn-primary{
+        font-size: 18px;
+        padding: 16px 30px;
+    }
+    .features-content h3{
+        font-size: 1.7rem;
+    }      
+    .collection-container{
+        grid-template-columns: 1fr;
+    }       
+    .card img{
+        width: 100%;
+    }
+    .features-img{
+        margin-top: 30px;
+    }    
+    .features-content{
+        text-align: center;
+        margin-left: 0;
+    }  
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .menu-items{
+        gap: 1.8rem;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-content h3{
+        font-size: 2rem;
+        line-height: 50px;
+    }
+    .banner-content p{
+        width: 80%;
+    }
+    .sponser{
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border-top:none;
+        border-bottom: none;
+    }
+    .collection-container{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .features-content h3{
+        font-size: 1.6rem;
+        line-height: 30px;
+    } 
+}
