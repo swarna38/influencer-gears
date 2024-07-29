@@ -7,9 +7,13 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 /* ====commom style===== */
-.container{
+.container,
+.container-secoundary{
     width: 85%;
     margin: 0 auto;
+}
+.container-secoundary{
+    width: 75%;
 }
 .display-flex{
     display: flex;
@@ -31,7 +35,7 @@ h3{
 /* ===nav start==== */
 .nav-bar{
     justify-content: space-between;
-    padding: 3rem 0 2rem 0;
+    padding: 3.5rem 0 2rem 0;
 }
 .menu-items{
     justify-content: space-evenly;
@@ -76,4 +80,12 @@ h3{
     padding: 10px;
     border-radius: 50%;
     border: 2px solid gainsboro;   
+}
+/* ======sponser start====== */
+.sponser{
+    justify-content: space-between;
+    margin: 90px 0;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 36px 36px;
 }
